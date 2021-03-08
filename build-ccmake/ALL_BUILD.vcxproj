@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2A7CFE6-8376-3C74-9114-FD32428D8834}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Wendy\Downloads\ecs1752\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Wendy/Downloads/ecs1752/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\bin\cmake.exe -SC:/Users/Wendy/Downloads/ecs1752 -BC:/Users/Wendy/Downloads/ecs1752/build-ccmake --check-stamp-file C:/Users/Wendy/Downloads/ecs1752/build-ccmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Wendy/Downloads/ecs1752/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\bin\cmake.exe -SC:/Users/Wendy/Downloads/ecs1752 -BC:/Users/Wendy/Downloads/ecs1752/build-ccmake --check-stamp-file C:/Users/Wendy/Downloads/ecs1752/build-ccmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Wendy/Downloads/ecs1752/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\bin\cmake.exe -SC:/Users/Wendy/Downloads/ecs1752 -BC:/Users/Wendy/Downloads/ecs1752/build-ccmake --check-stamp-file C:/Users/Wendy/Downloads/ecs1752/build-ccmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Wendy/Downloads/ecs1752/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\bin\cmake.exe -SC:/Users/Wendy/Downloads/ecs1752 -BC:/Users/Wendy/Downloads/ecs1752/build-ccmake --check-stamp-file C:/Users/Wendy/Downloads/ecs1752/build-ccmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Wendy\Documents\cmake-3.18.4-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Wendy\Downloads\ecs1752\build-ccmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\ZERO_CHECK.vcxproj">
+      <Project>{7B6C08F4-A859-37A0-98CF-8E00FE9625E0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\demo\d0_hello_triangle.vcxproj">
+      <Project>{2DFE195D-3919-3DA2-A47E-7599F3742F4E}</Project>
+      <Name>d0_hello_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\demo\d1_glgears.vcxproj">
+      <Project>{AA43C0E6-A228-37E5-85C5-CFE67452F293}</Project>
+      <Name>d1_glgears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\demo\d2_imgui.vcxproj">
+      <Project>{30114239-BCF6-3CCD-8F04-3B5BED061002}</Project>
+      <Name>d2_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\demo\d3_imgui.vcxproj">
+      <Project>{9AE14DB8-5D97-3BB9-8B57-A5086EDEC097}</Project>
+      <Name>d3_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\glad-compatible\glad-compatible.vcxproj">
+      <Project>{F7AD1228-346F-3734-930A-E71CE78344D2}</Project>
+      <Name>glad-compatible</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\glad-core-3.3\glad-core-3.3.vcxproj">
+      <Project>{FAAB9C8A-6B3C-3537-B4BB-A856C9C8611F}</Project>
+      <Name>glad-core-3.3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\glad-core-4.1\glad-core-4.1.vcxproj">
+      <Project>{4546704A-D55A-3F58-AD1C-D331A7F24756}</Project>
+      <Name>glad-core-4.1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\glfw-3.3.2\src\glfw.vcxproj">
+      <Project>{8AE0782F-BFB6-3A51-92C0-D80A115B7C67}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\imgui\imgui-compatible.vcxproj">
+      <Project>{00053AFC-751C-33D7-891C-2CD2D5EFA093}</Project>
+      <Name>imgui-compatible</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\imgui\imgui-core-3.3.vcxproj">
+      <Project>{A03CF976-28AF-3BFD-B2E2-9E91CF4083C4}</Project>
+      <Name>imgui-core-3.3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\imgui\imgui-core-4.1.vcxproj">
+      <Project>{FAA12E13-4009-34E9-AAC1-6C1B65B1527F}</Project>
+      <Name>imgui-core-4.1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\projects\p1\run_p1.vcxproj">
+      <Project>{BAF1BAFB-EEE6-30F2-9DE2-838BA404D885}</Project>
+      <Name>run_p1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\util\util-compatible.vcxproj">
+      <Project>{CFB8CC94-475A-3C10-8F33-B4A343A682D3}</Project>
+      <Name>util-compatible</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\util\util-core-3.3.vcxproj">
+      <Project>{70C30FCA-C7CC-3913-A0AF-FBBAE236A2C1}</Project>
+      <Name>util-core-3.3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Wendy\Downloads\ecs1752\build-ccmake\util\util-core-4.1.vcxproj">
+      <Project>{A768FDC2-59A4-38B4-9878-D2AFFE528C0A}</Project>
+      <Name>util-core-4.1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
